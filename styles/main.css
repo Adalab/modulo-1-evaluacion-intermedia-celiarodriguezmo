@@ -4,14 +4,47 @@
   box-sizing: border-box;
 }
 :root {
+  --tamaño-texto-menu: 1em;
+  --tamaño-texto-titulo: 1.87em;
   --fuente-texto: "Rubik", sans-serif;
-  --texto-menu: #4a4a4a;
+  --color-texto-menu: #4a4a4a;
+  --color-texto-titulo: #ffffff;
   --color-main: #3cdbc0;
-  --color-titulo: #ffffff;
+  --color-header: #ffffff;
 }
 .header {
   width: 100vw;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-header);
 }
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.imagen {
+  margin: 0.62em;
+}
+.menu {
+  list-style: none;
+  font-family: var(--fuente-texto);
+  font-size: var(--tamaño-texto-menu);
+  color: var(--color-texto-menu);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.botones {
+  text-decoration: none;
+}
+
+.enlaces {
+  text-decoration: none;
+}
+
 .main {
   width: 100vw;
   height: 100vh;
