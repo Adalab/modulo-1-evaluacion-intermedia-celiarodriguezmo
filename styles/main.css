@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --fuente-texto: "Rubik", sans-serif;
+  --texto-menu: #4a4a4a;
+  --color-main: #3cdbc0;
+  --color-titulo: #ffffff;
+}
+.header {
+  width: 100vw;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-main);
+}
