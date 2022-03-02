@@ -49,4 +49,14 @@
   width: 100vw;
   height: 100vh;
   background-color: var(--color-main);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.titulo {
+  font-family: var(--fuente-texto);
+  font-size: var(--tamaño-texto-titulo);
+  color: var(--color-texto-titulo);
+  justify-content: space-between;
 }
